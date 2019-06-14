@@ -1,0 +1,153 @@
+#!/system/xbin/bash
+clear
+blue='\e[1;34m'
+green='\e[1;32m'                                        
+purple='\[1;35m'
+cyan='\e[1;36m'
+red='\e[1;31m'
+white='\e[1;37m'                                           
+yellow='\e[1;33m'
+sleep 1
+echo "\033[32;1m=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*"
+toilet  "MYTOOLSV2"
+echo "\033[31;1m=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*"
+echo ""              
+echo "AUTHOR : "LCF.ERR"
+" TEAM : "ANONYMITY MALAYSIA"
+echo " CONTACT OWNER :  taufiqhakim815@gmail.com"
+sleep 1
+echo "THANKED:"
+echo "TAUFIQ HAKIM | LCF.ERR | SMKTAMANJASMINDUA"
+echo "\033[33;1m=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*"
+sleep 5
+echo "\033[32;1m CHOOSE YOUR TOOLS THAT YOU WANT TO USE:"
+sleep 5
+echo "\033[31;1m===============================================]>"
+echo "1. SPAMKFC"
+echo "\033[36;1m===============================================]>"
+sleep 3
+echo "\033[31;1m===============================================]>"
+echo "2. CARDING"
+echo "\033[34;1m===============================================]>"
+sleep 3
+echo "\033[31;1m===============================================]>"
+echo "3. SPAMEMAIL"
+echo "\033[31;1m===============================================]>"
+sleep 3
+echo "\033[37;1m===============================================]>"
+echo "4. ADMINFINDER"
+echo "\033[31;1m===============================================]>"
+sleep 3
+echo "\033[31;1m===============================================]>"
+echo "5. INSTALL SQLSCAN"
+echo "\033[37;1m===============================================]>"
+sleep 3
+echo "\033[31;1m===============================================]>"
+echo "6. INSTALL RED_HAWK"
+echo "\033[34;1m===============================================]>"
+sleep 3
+echo "\033[31;1m===============================================]>"
+echo "7. INSTALL DDOS"
+echo "\033[31;1m===============================================]>"
+sleep 8
+echo "\033[31;1m===============================================]>"
+echo "0. EXIT PROGRAM"
+echo "\033[32;1m===============================================]>"
+read bro
+
+if [ $bro = 1 ] || [ $bro = 1 ]
+then
+clear
+echo "\033[34;1m"
+figlet "MYTOOLSV2"
+php SPAMKFC.php 
+fi
+
+if
+[ $bro = 2 ] || [ $bro = 2 ]
+then
+clear
+echo "\033[31;1m"
+toilet "MYTOOLSV2"
+php CARDING.php
+fi
+
+if [ $bro = 3 ] || [ $bro = 3 ]
+then
+clear
+echo "\033[31;1m"
+figlet "MYTOOLSV2"
+php SPAMEMAIL.php
+fi
+
+if [ $bro = 4 ] || [ $bro = 4 ]
+then
+clear
+echo "\033[33;1m"
+toilet "MYTOOLSV2"
+python ADMINFINDER.py
+python2 ADMINFINDER.py
+python3 ADMINFINDER.py
+fi
+
+if [ $bro = 5 ] || [ $bro = 5 ]
+then
+clear
+echo "\033[33;1m"
+figlet "MYTOOLSV2"
+php sqlscan.php
+fi
+
+if [ $bro = 6 ] || [ $bro = 6 ]
+then
+clear
+echo "\033[33;1m"
+toilet "MYTOOLSV2"
+apt update
+apt install git
+apt install php
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+cd
+cd T00Ls-B4J1N64N
+ls
+cd RED_HAWK
+chmod +x rhawk.php
+php rhawk.php
+fi
+
+if [ $bro = 7 ] || [ $bro = 7 ]
+then
+clear
+figlet "MYTOOLSV2"
+apt update
+apt install git
+apt install python2
+apt install python
+git clone https://github.com/tfqhkm/123DDOS
+chmod +x *
+python2 123DDOS.py
+fi
+
+if [ $bro = 0 ] || [ $bro = 0 ]
+then
+echo "\033[32;1m Salam dari Team DARKNESS CYBER TEAM"
+sleep 1
+echo "\033[33;1m We Are Anonymous"
+sleep 1
+echo "\033[32;1m Incarlah suatu hal mustahil:) Suatu saat Kamu akan Mendapatkannya:)"
+sleep 1
+echo "\033[34;1m 1...2...3...4...5 Keluar Kimak >:("
+sleep 1
+echo "1..."
+sleep 1
+echo "2..."
+sleep 1
+echo "3..."
+sleep 1
+echo "4..."
+sleep 1
+echo "5..."
+sleep 1
+exit
+fi
+
